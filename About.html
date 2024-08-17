@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #111;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .about-section {
+            padding: 50px 0;
+        }
+        .about-section h2 {
+            font-size: 48px;
+            color: #6cc247;
+            font-weight: bold;
+            text-align: center;
+        }
+        .personal-info {
+            margin-top: 30px;
+            background-color: #222;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .personal-info h3 {
+            margin-bottom: 20px;
+            color: #6cc247;
+        }
+        .info-item {
+            margin-bottom: 15px;
+        }
+        .info-item span {
+            font-weight: bold;
+            color: #6cc247;
+        }
+        .info-item a {
+            color: #6cc247;
+        }
+        .stats {
+            margin-top: 30px;
+        }
+        .stat-box {
+            background-color: #222;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .stat-box h3 {
+            font-size: 36px;
+            color: #6cc247;
+            margin-bottom: 10px;
+        }
+        .stat-box p {
+            font-size: 18px;
+            color: #ccc;
+        }
+        .download-cv {
+            display: inline-block;
+            background-color: #6cc247;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .download-cv:hover {
+            background-color: #5fb53a;
+        }
+        .icon-container {
+            position: fixed;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1000;
+        }
+        .icon-container a {
+            display: block;
+            background-color: #222;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 50%;
+            color: #6cc247;
+            font-size: 24px;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+        .icon-container a:hover {
+            background-color: #6cc247;
+            color: #111;
+        }
+        
+        .navbar-right {
+            position: fixed;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .navbar-right a {
+            background-color: #6cc247;
+            color: white;
+            padding: 15px;
+            border-radius: 50%;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .navbar-right a:hover {
+            background-color: #000000;
+        }
+
+        .navbar-right i {
+            font-size: 18px;
+        }
+        #abc{
+            padding-right: 7%;
+        }
+      .p-8{
+        width: 17%;
+        margin: 3%;
+      }
+      #skill{
+        padding-right:8% ;
+      }
+        .circleBase {
+    border-radius: 50%;
+    width: 130%;
+    height: 150%;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+}
+
+    </style>
+</head>
+<body>
+
+       
+    <div class="navbar-right">
+        <a href="HOME.html"><i class="fas fa-home"></i></a>
+        <a href="portfolio.html"><i class="fas fa-briefcase"></i></a>
+        <a href="Contact.html"><i class="fas fa-comment"></i></a>
+        <a href="blog.html"><i class="fas fa-envelope"></i></a>
+        <a href="About.html"><i class="fas fa-user"></i></a>
+    </div>
+    <!-- About Me Section -->
+    <section class="about-section container"  id="abc">
+        <h2>ABOUT <span style="color: rgb(228, 240, 70);">ME</span></h2>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <div class="personal-info">
+                    <h3><span style="color: rgb(228, 240, 70);"> Personal Infos</span></h3>
+                    <div class="info-item"><span>First Name:</span> MUHAMMAD HASSAN</div>
+                    <div class="info-item"><span>Last Name:</span> SHAH </div>
+                    <div class="info-item"><span>Age:</span> 22 Years</div>
+                    <div class="info-item"><span>Nationality:</span> PAKISTAN</div>
+                    <div class="info-item"><span>Freelance:</span> Available</div>
+                    <div class="info-item"><span>Address:</span> LAHORE</div>
+                    <div class="info-item"><span>Phone:</span> <a href="tel:+923147509751">+923147509751</a></div>
+                    <div class="info-item"><span>Email:</span> <a href="mailto:hassanhashmi928@gmail.com">hassanhashmi928@gmail.com"</a></div>
+                    <div class="info-item"><span>Skype:</span> hassan_hashmi39</div>
+                    <div class="info-item"><span>Languages:</span> URDU, English</div>
+                    <a href="CV.pdf.docx" class="download-cv">DOWNLOAD CV</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row stats">
+                    <div class="col-md-6">
+                        <div class="stat-box">
+                            <h3>2+</h3>
+                            <p>Years of Experience</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="stat-box">
+                            <h3>97+</h3>
+                            <p>Completed Projects</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="stat-box">
+                            <h3>81+</h3>
+                            <p>Happy Customers</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="stat-box">
+                            <h3>10+</h3>
+                            <p>Awards Won</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container mx-auto my-12">
+        <h2 class="text-center text-4xl font-bold my-8">MY SKILLS</h2>
+        <div class="flex flex-wrap justify-center" id="skill">
+            <div class="p-8">
+                <div class="circleBase border-8 border-yellow-500 text-center text-2xl  font-bold">
+                    25% <br> HTML
+                </div>
+            </div>
+            <div class="p-8">
+                <div class="circleBase border-8 border-yellow-500 text-center text-2x1  font-bold">
+                    89% <br> JAVA <br>SCRIPT
+                </div>
+            </div>
+            
+            <div class="p-8">
+                <div class="circleBase border-8 border-yellow-500 text-center text-2xl  font-bold">
+                    95% <br>  CSS   
+                </div>
+            </div>
+
+            <div class="p-8">
+                <div class="circleBase border-8 border-yellow-500 text-center text-2x1  font-bold">
+                    89% <br> BOOT <br>STRAP
+                </div>
+            </div>
+            <div class="p-8">
+                <div class="circleBase border-8 border-yellow-500 text-center text-2xl  font-bold">
+                    85% <br> TAIL<br>WIND
+                </div>
+            </div>
+            <div class="p-8">
+                <div class="circleBase border-8 border-yellow-500 text-center text-2xl  font-bold">
+                    90% <br> PYTHON
+                </div>
+            </div>
+            <div class="p-8">
+                <div class="circleBase border-8 border-yellow-500 text-center text-2xl  font-bold">
+                    80% <br> UX/UI 
+                </div>
+            </div>
+            <div class="p-8">
+                <div class="circleBase border-8 border-yellow-500 text-center text-2xl  font-bold">
+                    90% <br> WORD <br>PRESS
+                </div>
+            </div>
+            <div class="p-8">
+                <div class="circleBase border-8 border-yellow-500 text-center text-2xl  font-bold">
+                    80% <br> C++
+                </div>
+            </div>
+            <div class="p-8">
+                <div class="circleBase border-8 border-yellow-500 text-center text-2xl  font-bold">
+                    90% <br> FREE <br>LANCE
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <div class="container mx-auto my-12">
+        <h2 class="text-center text-4xl font-bold my-8">EXPERIENCE & <span style="color: rgb(228, 240, 70);">EDUCATION</span></h2>
+        <div class="flex flex-wrap justify-center">
+            <div class="w-full lg:w-1/2 p-4 experience-item">
+                <div class="flex items-center mb-4">
+                    <div class="bg-yellow-500 p-4 rounded-full">
+                        <i class="fas fa-briefcase text-white"></i>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="text-2xl font-bold">WEB DEVELOPER</h3>
+                        <p class="text-gray-400">Envato | 2018 - Present</p>
+                        <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/2 p-4 experience-item">
+                <div class="flex items-center mb-4">
+                    <div class="bg-yellow-500 p-4 rounded-full">
+                        <i class="fas fa-briefcase text-white"></i>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="text-2xl font-bold">UI/UX DESIGNER</h3>
+                        <p class="text-gray-400">ThemeForest | 2013 - 2018</p>
+                        <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/2 p-4 experience-item">
+                <div class="flex items-center mb-4">
+                    <div class="bg-yellow-500 p-4 rounded-full">
+                        <i class="fas fa-briefcase text-white"></i>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="text-2xl font-bold">CONSULTANT</h3>
+                        <p class="text-gray-400">VideoHive | 2005 - 2013</p>
+                        <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
